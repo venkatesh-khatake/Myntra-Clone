@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:aqua; */
+    padding: 0 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+.myntra-logo{
+  width: 56px;
+}
+
+.nav-bar{
+
+}
+.nav-bar ul{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.nav-bar ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+  font-size: 14px;
+}
+.search-bar{
+  position: relative;
+  flex-grow: 1;
+}
+.search-bar input{
+ width: 100%;
+  height: 40px;
+  padding-left: 45px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+.search-bar i{
+  
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  color: grey;
+}
+
+.action-bar{
+  display: flex;
+  gap: 25px;
+}
+.action-bar div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action-bar a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* main */
+
+.main{
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 90px;
+}
+.banner{
+  width: 100%;
+
+}
+.banner img{
+  width: 100%;
+}
+
+/* ======================== */
+.brand-to-bag{
+  display: flex;
+  flex-direction: column;
+}
+.brand-to-bag h1{
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-left: 30px;
+
+}
+.collection{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+}
+.collection img{
+  width: 250px;
+  flex-grow: 1;
+}
+
+.brands{
+  display: flex;
+  flex-direction: column;
+}
+.brands h1{
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-left: 30px;
+}
+
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+.category h1{
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-left: 30px;
+  margin-bottom: 90px;
+}
+.category-collection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 50px;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.category-collection img{
+  width: 250px;
+
+}
+footer{
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.section h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.section ul{
+  list-style: none;
+  color: grey;
+  font-size: 14px;
+}
+.download{
+  display: flex;
+  gap: 25px;
+}
+.download img{
+  width: 150px;
+}
+.social-media-links{
+  display: flex;
+  gap: 10px;
+}
+.social-media-links i{
+  font-size: 30px;
+  color: grey;
+}
+
+.developer-name{
+ width: 100%;
+ text-align: center;
+ padding: 15px;
+ background-color: black;
+ color: white;
+}
